@@ -8,9 +8,26 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
-    </div>
+    Principle amount:<br />
+    <asp:TextBox ID="LoanAmount" runat="server"></asp:TextBox>
+    <br />
+    <br />
+    <br />
+    Annual Interest Rate:<br />
+    <asp:TextBox ID="Rate" runat="server"></asp:TextBox>
+    <br />
+    <br />
+    <br />
+    <br />
+    Mortgage length:<br />
+    <asp:TextBox ID="MortgageLength" runat="server"></asp:TextBox>
+    <br />
+    <br />
+    <asp:Button ID="PerformCalkButton" runat="server" Text="Compute Monthly Cost" />
+    <br />
+    <br />
+    <br />
+    <asp:Label ID="Results" runat="server"></asp:Label>
     </form>
 </body>
 </html>
